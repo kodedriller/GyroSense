@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+   
+    <style type=text/css>   
+      body   
+      {  
+      height: 125vh;  
+    
+      /* padding: 30px;   */
+      background-size: cover;  
+      font-family: sans-serif;  
+      margin: 0;
+      align-content: center;
+      }  
+      header {  
+      background-color: black;  
+      position: fixed;  
+      left: 0;  
+      right: 0;  
+      
+      height: 50px;  
+      display: flex;  
+      align-items: center;  
+      
+      }  
+      header * {  
+      display: inline;  
+      }  
+      header li {  
+      color: white; 
+      margin: 20px;  
+      }  
+      header li a {  
+      color: white;  
+      text-decoration: none;  
+      }  
+    
+      </style>
+  </head>
+  <body>
+    <header>  
+      <nav>  
+      <ul>  
+      <li>  
+      GyroSense
+      </li>  
+      <li>  
+      <a href="../../Frontend/motion.html"> Back </a>  
+      </li>  
+      
+      
+      </ul>  
+      </nav>  
+      </header>
+    
+    <div id="center">
+      <div id="game">
+        <div id="maze">
+          <div id="end"></div>
+        </div>
+        <div id="joystick">
+          <div id="joystick-head">Start</div>
+        </div>
+        <div id="note">
+          Click the joystick to start!
+          <p>Move every ball to the center. Ready for hard mode? Press H</p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

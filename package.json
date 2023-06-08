@@ -1,0 +1,11 @@
+{
+  "name": "gyrosense",
+  "version": "1.0.0",
+  "description": "Virtual Joystick Experience using gryoscope of mobile or smartphone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manish Bishnoi",
+  "license": "ISC"
+}
